@@ -19,9 +19,9 @@ else:
 driver.get("https://testautomationpractice.blogspot.com")
 
 driver.maximize_window()
-driver.find_element(By.XPATH, "//input[@id='email']").send_keys("test@example.com")
+driver.find_element(By.XPATH, "//input[@id='email']").send_keys("amanayush2704@gmail.com")
 driver.find_element(By.XPATH, "//input[@id='phone']").send_keys("8100129357")
-driver.find_element(By.XPATH, "//input[@id='name']").send_keys("Yashraj Sharma")
+driver.find_element(By.XPATH, "//input[@id='name']").send_keys("Ayush Aman")
 
 time.sleep(2)
 

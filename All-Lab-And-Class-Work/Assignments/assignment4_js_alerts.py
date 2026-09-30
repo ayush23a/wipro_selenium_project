@@ -67,7 +67,7 @@ try:
     print(f"Prompt text: {prompt_alert.text}")
     time.sleep(1)
 
-    prompt_alert.send_keys("Yashraj Sharma")   # Enter text into the prompt
+    prompt_alert.send_keys("Ayush Aman")   # Enter text into the prompt
     time.sleep(2)  # pause so viewers can see the typed text inside the prompt
 
     prompt_alert.accept()                       # Submit it
@@ -77,7 +77,7 @@ try:
     # Verify the result text on the page reflects our input
     result = driver.find_element(By.CSS_SELECTOR, "#text").text
     print(f"Result on page: {result}")
-    assert "Yashraj Sharma" in result, "Prompt text was not reflected on page!"
+    assert "Ayush Aman" in result, "Prompt text was not reflected on page!"
     print("PASS: Prompt value verified on page.")
 
     time.sleep(3)  # final pause showing the verified result on the page

@@ -16,8 +16,8 @@ def run(headless: bool = False) -> None:
     try:
         driver.get("https://testautomationpractice.blogspot.com/")
 
-        wait.until(EC.presence_of_element_located((By.ID, "name"))).send_keys("Yashraj Sharma")
-        wait.until(EC.presence_of_element_located((By.ID, "email"))).send_keys("yashrajs118@gmail.com")
+        wait.until(EC.presence_of_element_located((By.ID, "name"))).send_keys("Ayush Aman")
+        wait.until(EC.presence_of_element_located((By.ID, "email"))).send_keys("amanayush2704@gmail.com")
         wait.until(EC.presence_of_element_located((By.ID, "phone"))).send_keys("8100129357")
 
         # Address textarea's id can vary between page revisions, so fall

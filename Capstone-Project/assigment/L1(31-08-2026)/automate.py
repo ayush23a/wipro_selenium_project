@@ -29,8 +29,8 @@ time.sleep(3)  # Wait for page to load
 wait = WebDriverWait(driver, 10)
 
 # Fill form fields with explicit waits
-wait.until(EC.presence_of_element_located((By.XPATH, "//input[@id='name']"))).send_keys("Yashraj Sharma")
-wait.until(EC.presence_of_element_located((By.XPATH, "//input[@id='email']"))).send_keys("yashrajs118@gmail.com")
+wait.until(EC.presence_of_element_located((By.XPATH, "//input[@id='name']"))).send_keys("Ayush Aman")
+wait.until(EC.presence_of_element_located((By.XPATH, "//input[@id='email']"))).send_keys("amanayush2704@gmail.com")
 wait.until(EC.presence_of_element_located((By.XPATH, "//input[@id='phone']"))).send_keys("8100129357")
 
 # Address field - try different possible IDs with longer wait

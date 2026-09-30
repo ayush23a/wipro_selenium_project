@@ -299,4 +299,4 @@ pytest tests/pytest_tests/ --headless -v
 
 ---
 
-*Submitted by: Sayan Roy Chowdhury | IEM SaltLake | Capstone Assignment 2*
+*Submitted by: Ayush Aman | IEM SaltLake | Capstone Assignment 2*

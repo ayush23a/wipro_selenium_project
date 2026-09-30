@@ -309,12 +309,12 @@ The scripts and frameworks in this repository were engineered and validated on *
 
 ## 👤 Author & Acknowledgments
 
-- **Lead Engineer & Author:** Sayan Roy Chowdhury
+- **Lead Engineer & Author:** Ayush Aman
 - **Campus:** IEM SaltLake
-- **Enrollment No:** 12023052004075
+- **Enrollment No:** 12023052004071
 - **Specialization Curriculum:** Software QA, Test Automation & Framework Architecture
 - **Date:** September 2026
 
 ---
 
-> © 2026 Sayan Roy Chowdhury | IEM SaltLake. All rights reserved.
+> © 2026 Ayush Aman | IEM SaltLake. All rights reserved.

@@ -18,9 +18,9 @@ def run(headless: bool = False) -> None:
     try:
         driver.get("https://testautomationpractice.blogspot.com")
 
-        wait.until(EC.presence_of_element_located((By.ID, "email"))).send_keys("test@example.com")
+        wait.until(EC.presence_of_element_located((By.ID, "email"))).send_keys("amanayush2704@gmail.com")
         wait.until(EC.presence_of_element_located((By.ID, "phone"))).send_keys("8100129357")
-        wait.until(EC.presence_of_element_located((By.ID, "name"))).send_keys("Yashraj Sharma")
+        wait.until(EC.presence_of_element_located((By.ID, "name"))).send_keys("Ayush Aman")
     finally:
         driver.quit()
 
